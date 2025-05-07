@@ -5,10 +5,9 @@ int main()
     int num,i=1,Mul;
     printf("Enter the number");
     scanf("%d",&num);
-    while(i<=10){
+    for(i=1;i<=10;i++){
         Mul=num*i;
-        printf("%d\n",Mul);
-        i++;
+        printf("%d\n",Mul);      
     }
     return 0;
 }
