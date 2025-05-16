@@ -8,10 +8,10 @@ int main(){
     scanf("%d",&pos);
     printf("\n Enter the number");
     scanf("%d",&num);
-
-        for (int i = 9; i > pos; i--) {
-        a[i] = a[i - 1];
-    }
+        for (int i = 9; i > pos; i--) 
+        {
+            a[i] = a[i - 1];
+        }
 
     // Insert the new element
     a[pos] = num;
